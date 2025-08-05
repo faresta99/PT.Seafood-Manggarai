@@ -28,7 +28,7 @@ export default function TestimonialSection() {
           Apa Kata Mereka?
         </h2>
         <p className="text-[20px] lg:text-lg italic text-[#333]">
-          “Seafood segar, pelayanan cepat, pelanggan puas.”
+          &ldquo;Seafood segar, pelayanan cepat, pelanggan puas.&rdquo;
         </p>
       </div>
 
@@ -47,7 +47,9 @@ export default function TestimonialSection() {
               />
             </div>
             <h3 className="font-semibold text-[#333] mb-2">{testi.name}</h3>
-            <p className="text-gray-600 italic">"{testi.message}"</p>
+            <p className="text-gray-600 italic">
+              &ldquo;{testi.message}&rdquo;
+            </p>
           </div>
         ))}
       </div>

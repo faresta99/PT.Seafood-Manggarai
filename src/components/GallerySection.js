@@ -25,7 +25,7 @@ export default function GallerySection() {
           📸 Galeri Kami
         </h2>
         <p className="text-[20px] lg:text-lg text-[#333]">
-          "Lihat lebih dekat hasil laut terbaik kami"
+          &quot;Lihat lebih dekat hasil laut terbaik kami&quot;
         </p>
       </div>
 
